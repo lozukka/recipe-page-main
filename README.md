@@ -14,22 +14,20 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
 ### Screenshot
 
-![](./screenshot.jpg)
+[](./screenshotFINISH.png)
 
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/lozukka/recipe-page-main)
+- Live Site URL: [Live site URL](https://lozukka.github.io/recipe-page-main/)
 
 ## My process
 
@@ -51,4 +49,4 @@ I will try work with the table and the listmarkers in the future.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@lozukka](https://www.frontendmentor.io/profile/lozukka)
