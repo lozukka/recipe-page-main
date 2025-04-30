@@ -1,0 +1,147 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color-white: hsl(0, 0%, 100%);
+    --color-stone100: hsl(30, 54%, 90%);
+    --color-stone150: hsl(30, 18%, 87%);
+    --color-stone600: hsl(30, 10%, 34%);
+    --color-stone900: hsl(24, 5%, 18%);
+    --color-brown: hsl(14, 45%, 36%);
+    --color-rose800: hsl(332, 51%, 32%);
+    --color-rose50: hsl(330, 100%, 98%);
+}
+
+body {
+    background-color: var(--color-stone100);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+#wrapper {
+    background-color: var(--color-white);
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 375px;
+}
+
+
+img {
+    width: 375px;
+    margin-top: -20px;
+    margin-left: -20px;
+    align-self: center;
+}
+
+h1 {
+    color: var(--color-stone900);
+    margin-top: 20px;
+    font-family: "Young serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    color: var(--color-stone600);
+    margin: 20px 20px 20px 0;
+}
+
+#preparation {
+    background-color: var(--color-rose50);
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+#preparation h2 {
+    color: var(--color-rose800);
+    font-family: "Outfit";
+    font-weight: 600;
+    font-style: normal;
+}
+
+#preparation ul,
+#ingredients ul,
+#instructions ol {
+    padding: 10px;
+}
+
+#preparation li,
+#ingredients li,
+#instructions li {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin: 10px 25px;
+    color: var(--color-stone600);
+}
+#preparation li::marker,
+#ingredients li::marker,
+#instructions li::marker {
+    font-weight: bold;
+    color: var(--color-brown);
+    margin-right: 10px;
+}
+
+#ingredients h2,
+#instructions h2,
+#nutrition h2 {
+    font-family: "Young serif", serif;
+    color: var(--color-brown);
+    font-style: normal;
+}
+
+.hrsolid {
+    border-top: 1px solid var(--color-stone100);
+    margin: 25px 0px;
+}
+
+table {
+    width: 100%;
+}
+
+tr {
+    border-bottom: 1px solid var(--color-stone100);
+}
+
+th {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    color: var(--color-stone600);
+    padding: 10px 20px;
+}
+td {
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: var(--color-brown);
+}
+
+@media (min-width: 800px) {
+
+    #wrapper {
+        max-width: 700px;
+    }
+    img {
+        width: 660px;
+        align-self: center;
+        padding: auto;
+        margin: auto;
+        border-radius: 12px;
+    }
+    
+}
